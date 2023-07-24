@@ -21,9 +21,7 @@ function App() {
         justifyItems: "center"
       }}
       >
-        <div style={{
-            width: "50%"
-        }}>
+        <div>
             <h1>Lista de tarefas</h1>
             <AddTodo />
             <ListTodo />

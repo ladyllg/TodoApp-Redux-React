@@ -2,79 +2,91 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  
-  body {
-    font-family: "Asap", sans-serif;
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    padding: 10px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-  .addForm{
-    width: 90%;
-    margin: 20px auto;
-    -webkit-box-shadow: 6px 7px 17px -10px rgba(0,0,0,0.54);
-    -moz-box-shadow: 6px 7px 17px -10px rgba(0,0,0,0.54);
-    box-shadow: 6px 7px 17px -14px rgba(0,0,0,0.54);
-  }
+body {
+  font-family: "Asap", sans-serif;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  padding: 10px;
+}
 
-  h1 {
-    font-size: 70px;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #553c9a, #b393d3);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+.addForm {
+  width: 90%;
+  margin: 20px auto;
+  -webkit-box-shadow: 6px 7px 17px -10px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 6px 7px 17px -10px rgba(0, 0, 0, 0.54);
+  box-shadow: 6px 7px 17px -14px rgba(0, 0, 0, 0.54);
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   color: #fdfdfe;
   text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
     0px 0px 20px #b393d3;
-    
-  }
-  
-  .todos {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    -webkit-box-shadow: 6px 7px 17px -10px rgba(0,0,0,0.54);
-    -moz-box-shadow: 6px 7px 17px -10px rgba(0,0,0,0.54);
-    box-shadow: 6px 7px 17px -14px rgba(0,0,0,0.54);
-  }
-  ul {
-    list-style-type: none;
-    padding: 10px 5px;
-  }
-  li {
-    border-bottom: 1px solid gainsboro;
-    padding-block: 7px;
-    display: flex;
-    align-items: center;
-    font-size: 17px;
-  }
-  li > button {
-    padding: 4px;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    margin-left: auto;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  li .completed {
-    text-decoration: line-through;
-    text-decoration-color: red;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 3px;
-  }/*# sourceMappingURL=styles.css.map */
+}
 
-  .icon-delete{
-    color: red
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  h1 {
+    font-size: 2rem;
   }
+}
+
+.todos {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 7px 17px -10px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 6px 7px 17px -10px rgba(0, 0, 0, 0.54);
+  box-shadow: 6px 7px 17px -14px rgba(0, 0, 0, 0.54);
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 5px;
+}
+
+li {
+  border-bottom: 1px solid gainsboro;
+  padding-block: 7px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+li>button {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin-left: auto;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li .completed {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.icon-delete {
+  color: red
+}
